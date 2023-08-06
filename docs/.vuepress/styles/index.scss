@@ -1,0 +1,75 @@
+// 在导航栏中将站点名称改为斜体
+.site-name {
+    // font-style: italic;
+}
+
+.vp-navbar .nav-item {
+    position: relative;
+    margin: 0 0.5rem;
+    line-height: 2rem;
+}
+
+@media (min-width: 1440px) {
+    body {
+        font-size: 16px;
+    }
+
+    .vp-sidebar {
+        padding-bottom: 3rem;
+        box-shadow: none;
+        font-size: 14px;
+    }
+}
+
+.vp-sidebar-link {
+    line-height: 1.5;
+}
+
+.vp-sidebar-links li {
+    line-height: 1.5;
+}
+
+.vp-sidebar-link.active {
+    background: none;
+}
+
+.vp-sidebar-link:hover {
+    background: none;
+    color: #3eaf7c;
+}
+
+.vp-sidebar-heading:hover {
+    background: none;
+    color: #3eaf7c;
+}
+
+.vp-sidebar-heading .vp-sidebar-title:hover {
+    background: none;
+    color: #3eaf7c;
+}
+
+.vp-sidebar-group:not(.collapsible) .vp-sidebar-heading:not(.clickable):hover {
+    background: none;
+    color: #3eaf7c;
+}
+
+.vp-sidebar-group .vp-sidebar-group .vp-sidebar-heading:hover {
+    background: none;
+    color: #3eaf7c;
+}
+
+.vp-breadcrumb {
+    font-size: 0.9rem;
+}
+
+.vp-page-nav {
+    font-size: 0.9rem;
+
+    .nav-link {
+        text-align: center;
+    }
+
+    .icon {
+        display: none;
+    }
+}
