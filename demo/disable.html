@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-beta.66" />
+    <meta name="theme" content="VuePress Theme Hope" />
+    <link rel="icon" href="/zhiwu/favicon.ico"><link rel="icon" href="/zhiwu/assets/icon/chrome-mask-512.png" type="image/png" sizes="512x512"><link rel="icon" href="/zhiwu/assets/icon/chrome-mask-192.png" type="image/png" sizes="192x192"><link rel="icon" href="/zhiwu/assets/icon/chrome-512.png" type="image/png" sizes="512x512"><link rel="icon" href="/zhiwu/assets/icon/chrome-192.png" type="image/png" sizes="192x192"><link rel="manifest" href="/zhiwu/manifest.webmanifest" crossorigin="use-credentials"><meta name="theme-color" content="#46bd87"><link rel="apple-touch-icon" href="/zhiwu/assets/icon/apple-icon-152.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="msapplication-TileImage" content="/zhiwu/assets/icon/ms-icon-144.png"><meta name="msapplication-TileColor" content="#ffffff"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"><title>布局与功能禁用 | 知屋</title><meta name="description" content="一个房屋管理系统">
+    <style>
+      :root {
+        --bg-color: #fff;
+      }
+
+      html[data-theme="dark"] {
+        --bg-color: #1d1e1f;
+      }
+
+      html,
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <link rel="preload" href="/zhiwu/assets/style-8345150b.css" as="style"><link rel="stylesheet" href="/zhiwu/assets/style-8345150b.css">
+    <link rel="modulepreload" href="/zhiwu/assets/app-db148a51.js"><link rel="modulepreload" href="/zhiwu/assets/disable.html-ed8b1251.js"><link rel="modulepreload" href="/zhiwu/assets/plugin-vue_export-helper-c27b6911.js"><link rel="modulepreload" href="/zhiwu/assets/disable.html-1145525d.js"><link rel="prefetch" href="/zhiwu/assets/index.html-3681ad35.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-dd38314b.js" as="script"><link rel="prefetch" href="/zhiwu/assets/encrypt.html-b364d5c2.js" as="script"><link rel="prefetch" href="/zhiwu/assets/markdown.html-44aae2d8.js" as="script"><link rel="prefetch" href="/zhiwu/assets/page.html-261c75bd.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-3b04c5c5.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-2b45143b.js" as="script"><link rel="prefetch" href="/zhiwu/assets/baz.html-45036097.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-9c1cf18a.js" as="script"><link rel="prefetch" href="/zhiwu/assets/ray.html-de4a7061.js" as="script"><link rel="prefetch" href="/zhiwu/assets/404.html-fbb9779d.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-d6b38232.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-bac5f23e.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-b5ea35d5.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-d0cda424.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-1e96c1da.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-a8d62cea.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-0811b9a3.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-3531b0fc.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-e1f830ed.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-528cdc71.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-cb087647.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-2bb3a242.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-3c51a9a5.js" as="script"><link rel="prefetch" href="/zhiwu/assets/encrypt.html-482f0798.js" as="script"><link rel="prefetch" href="/zhiwu/assets/markdown.html-5ea1c973.js" as="script"><link rel="prefetch" href="/zhiwu/assets/page.html-a7082bc2.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-5562bf36.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-2890de63.js" as="script"><link rel="prefetch" href="/zhiwu/assets/baz.html-65beadad.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-65075bc1.js" as="script"><link rel="prefetch" href="/zhiwu/assets/ray.html-2fd26001.js" as="script"><link rel="prefetch" href="/zhiwu/assets/404.html-928a8dad.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-6915ed61.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-43f4d433.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-717815e4.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-7bf7e75e.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-42110fe6.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-e338633b.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-2d69e08d.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-9572c51f.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-801efeba.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-26a73f43.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index.html-41a18172.js" as="script"><link rel="prefetch" href="/zhiwu/assets/giscus-0b7adcf8.js" as="script"><link rel="prefetch" href="/zhiwu/assets/auto-712ff3ee.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index-2bf332f6.js" as="script"><link rel="prefetch" href="/zhiwu/assets/flowchart-c441f34d.js" as="script"><link rel="prefetch" href="/zhiwu/assets/mermaid.core-07fcdd2b.js" as="script"><link rel="prefetch" href="/zhiwu/assets/highlight.esm-75b11b9d.js" as="script"><link rel="prefetch" href="/zhiwu/assets/markdown.esm-abe06b83.js" as="script"><link rel="prefetch" href="/zhiwu/assets/math.esm-70a288c8.js" as="script"><link rel="prefetch" href="/zhiwu/assets/notes.esm-a106bb2c.js" as="script"><link rel="prefetch" href="/zhiwu/assets/reveal.esm-ec5549c1.js" as="script"><link rel="prefetch" href="/zhiwu/assets/search.esm-7e6792e2.js" as="script"><link rel="prefetch" href="/zhiwu/assets/zoom.esm-b83b91d0.js" as="script"><link rel="prefetch" href="/zhiwu/assets/VuePlayground-bf261ae6.js" as="script"><link rel="prefetch" href="/zhiwu/assets/photoswipe.esm-5794cde2.js" as="script"><link rel="prefetch" href="/zhiwu/assets/index-e32a7948.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><div class="theme-container no-navbar no-sidebar has-toc"><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar hide-icon"><!--[--><!----><!--]--><ul class="vp-sidebar-links"></ul><!--[--><!----><!--]--></aside><!--[--><main id="main-content" class="vp-page"><!----></main><!--]--><!----></div><!--]--><!----><!----><!--]--></div>
+    <script type="module" src="/zhiwu/assets/app-db148a51.js" defer></script>
+  </body>
+</html>
