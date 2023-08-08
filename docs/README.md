@@ -2,8 +2,12 @@
 lang: zh-CN
 title: 首页
 description: 首页
-secret: true
+# secret: true
+# home: true
 ---
+
+<el-button type="primary" :icon="Edit">我是Element-Plus</el-button>
+
 '# Hello VuePress'
 :grinning::smile:
 [[toc]]
