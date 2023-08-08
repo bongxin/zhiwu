@@ -6,7 +6,62 @@ description: 首页
 # home: true
 ---
 
+<script>
+    import { CaretBottom } from '@element-plus/icons-vue' // svg图标
+import { Calendar, Search } from '@element-plus/icons-vue'
+const size=1;
+
+</script>
 <el-button type="primary" :icon="Edit">我是Element-Plus</el-button>
+ <el-icon><caret-bottom /></el-icon>
+
+
+ <!-- 使用 el-icon 标签来包裹 SVG 图标 -->
+  <div>
+    <el-icon :size="size" :color="color">
+      <edit />
+    </el-icon>
+    <!-- 也可以直接使用图标标签，无需父标签包裹 -->
+    <edit />
+  </div>
+
+
+
+<el-row class="mb-4">
+    <el-button>Default</el-button>
+    <el-button type="primary">Primary</el-button>
+    <el-button type="success">Success</el-button>
+    <el-button type="info">Info</el-button>
+    <el-button type="warning">Warning</el-button>
+    <el-button type="danger">Danger</el-button>
+  </el-row>
+
+  <el-row class="mb-4">
+    <el-button plain>Plain</el-button>
+    <el-button type="primary" plain>Primary</el-button>
+    <el-button type="success" plain>Success</el-button>
+    <el-button type="info" plain>Info</el-button>
+    <el-button type="warning" plain>Warning</el-button>
+    <el-button type="danger" plain>Danger</el-button>
+  </el-row>
+
+  <el-row class="mb-4">
+    <el-button round>Round</el-button>
+    <el-button type="primary" round>Primary</el-button>
+    <el-button type="success" round>Success</el-button>
+    <el-button type="info" round>Info</el-button>
+    <el-button type="warning" round>Warning</el-button>
+    <el-button type="danger" round>Danger</el-button>
+  </el-row>
+
+  <el-row>
+    <el-button :icon="Search" circle />
+    <el-button type="primary" :icon="CaretBottom" circle />
+    <el-button type="success" :icon="Check" circle />
+    <el-button type="info" :icon="Message" circle />
+    <el-button type="warning" :icon="Star" circle />
+    <el-button type="danger" :icon="Delete" circle />
+  </el-row>
 
 '# Hello VuePress'
 :grinning::smile:
