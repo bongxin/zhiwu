@@ -1,0 +1,5 @@
+/* vuepress主题支持暗黑，hope主题不支持 */
+html.dark {
+    /* 自定义深色背景颜色 */
+    --el-bg-color: #626aef;
+}
