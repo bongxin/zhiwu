@@ -1,0 +1,1 @@
+import{_ as n}from"./plugin-vue_export-helper-c27b6911.js";import{r as o,o as t,c as a,a as c}from"./app-78aa9ef2.js";const r={};function _(s,l){const e=o("ClanVat");return t(),a("div",null,[c(e)])}const i=n(r,[["render",_],["__file","index.html.vue"]]);export{i as default};
