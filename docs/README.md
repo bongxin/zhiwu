@@ -5,6 +5,8 @@ description: 首页
 # secret: true
 # home: true
 ---
+<el-alert title="success alert" type="success" />
+<ClanVat></ClanVat>
 
 <script>
     import { CaretBottom } from '@element-plus/icons-vue' // svg图标
@@ -17,13 +19,12 @@ const size=1;
 
 
  <!-- 使用 el-icon 标签来包裹 SVG 图标 -->
-  <div>
+  <!-- <div>
     <el-icon :size="size" :color="color">
       <edit />
     </el-icon>
-    <!-- 也可以直接使用图标标签，无需父标签包裹 -->
     <edit />
-  </div>
+  </div> -->
 
 
 
