@@ -6,7 +6,6 @@ description: 首页
 # home: true
 ---
 <el-alert title="success alert" type="success" />
-<ClanVat></ClanVat>
 
 <script>
     import { CaretBottom } from '@element-plus/icons-vue' // svg图标
